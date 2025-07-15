@@ -67,6 +67,71 @@ body{
 }
 
 /* liste */
-#new-task{
-    
+ul{
+    list-style-type: none;
+}
+
+figure{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.testo-riga{
+    font-size: 16px;
+}
+
+/* editing punti lista */
+.freccia-giu{
+    width: 20px;
+}
+
+.mark-check{
+    width: 10px;
+}
+
+.mark-cross{
+    width: 10px;
+}
+
+/* editing pill */
+.pill-editorial{
+    background-color: #37A7DF;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pill-Q1{
+    background-color: #936ED9;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pill-recruiting{
+    background-color: #55BDA2;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pill-mobile{
+    background-color: #EF9341;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pill-website{
+    background-color: #CC588F;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pill-sales{
+    background-color: #A7C344;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
 }
