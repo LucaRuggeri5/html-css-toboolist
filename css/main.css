@@ -45,24 +45,24 @@ body{
 #add-task{
     background-color: #3AACEB;
     color: #F5F7F9;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
-    margin: 10px;
+    margin-top: 15px;
     padding: 10px;
     vertical-align: middle;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: #3AACEB;
 }
 
 #add-section{
     background-color: #FEFEFD;
     color: #C6C6C6;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
-    margin: 10px;
+    margin-top: 15px;
     padding: 10px;
     vertical-align: middle;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: #C6C6C6;
 }
 
@@ -80,17 +80,51 @@ figure{
     font-size: 16px;
 }
 
+.block{
+    padding: 10px;
+}
+
+.lista1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lista2{
+    padding-bottom: 30px;
+}
+
+.lista3{
+    padding-bottom: 30px;
+}
+
+
 /* editing punti lista */
 .freccia-giu{
     width: 20px;
 }
 
-.mark-check{
-    width: 10px;
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: green;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    border-radius: 50%;
 }
 
-.mark-cross{
-    width: 10px;
+.cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: red;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    border-radius: 50%;
 }
 
 /* editing pill */
