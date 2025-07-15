@@ -29,3 +29,9 @@ body{
     vertical-align: middle;
     font-weight: 700;
 }
+
+/* regole contenuto principale */
+.container{
+    width: 60%;
+    margin: 20px auto;
+}
